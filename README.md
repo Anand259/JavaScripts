@@ -1,7 +1,7 @@
 # Custom AJAX Handler
 #### Developer : Anand Pandey
 - Made with love in Vanilla JavaScript
-- Feel free to use, if don't want to use depandencies like JQuery 
+- Feel free to use, if you don't want to use depandencies like JQuery 
 
 #### How to use 
 > Import using CDN

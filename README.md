@@ -1,4 +1,4 @@
-# Custom AJAX Handler
+# Custom JavaScripts
 #### Developer : Anand Pandey
 - Made with love in Vanilla JavaScript
 - If you don't want to use depandencies like JQuery then this is an alternative.

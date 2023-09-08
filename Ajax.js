@@ -39,7 +39,7 @@ ajaxpost = (url, data, success) => {
     };
     xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.setRequestHeader('X-CSRF-TOKEN', document.querySelector('meta[name="csrf-token"]').getAttribute('content'));// Comment this line if you don't need XSS security e.g in PHP Laravel Framework, CSRF is by default on and restricts ajax POST requests, so for this purpose use this line otherwise comment
+    xhr.setRequestHeader('X-CSRF-TOKEN', document.querySelector('meta[name="csrf-token"]').getAttribute('content'));// Comment this line if you don't need XSS security e.g in PHP Laravel Framework, CSRF is by default on and restricts ajax POST requests, so for this purpose use this line otherwise comment 
     xhr.send(params);
     return xhr;
 }

@@ -4,9 +4,14 @@
 - Feel free to use, if don't want to use depandencies like JQuery 
 
 #### How to use 
-> Import this file using
+> Import using CDN
 ```sh
-  <script src='path/to/your/library/file'></script>
+  <script src='https://cdn.jsdelivr.net/gh/Anand259/Javascripts/Ajax.js'><script>
+```
+
+> Import using locally (hosted on your server)
+```sh
+  <script src='path/to/your/script/file'></script>
 ```
 
 > To inject GET request simply call
